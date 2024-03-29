@@ -1,0 +1,29 @@
+{
+  "name": "module-import",
+  "version": "1.0.0",
+  "description": "Module-Import is a JavaScript library that simplifies dynamic module importing in both Node.js and browser environments. With Module-Import, you can asynchronously load modules and conveniently access them in your code, making it easier to organize and modularize your JavaScript applications.",
+  "main": "src/module-import.js",
+  "type": "module",
+  "scripts": {
+    "publish:github": "git add . && git commit -m 'Publishing release' && git push origin main",
+    "publish:npm": "npm publish"
+  },
+  "keywords": [
+    "module",
+    "dynamic",
+    "import",
+    "loader",
+    "javascript",
+    "library"
+  ],
+  "author": "Dux Tecnologia",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duxtec/module-import.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duxtec/module-import/issues"
+  },
+  "homepage": "https://github.com/duxtec/module-import#readme"
+}
